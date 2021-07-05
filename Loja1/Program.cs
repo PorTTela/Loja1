@@ -16,8 +16,8 @@ namespace Loja1
             string email = Console.ReadLine();
             Console.Write("Birth Date (DD/MM/YYYY): ");
             DateTime birthDate = DateTime.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter order Data:");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("Enter order Data");
             Console.Write("Status: ");
             OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
             Console.Write("How many items to this order? ");
